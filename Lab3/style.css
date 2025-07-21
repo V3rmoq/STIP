@@ -1,0 +1,96 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.game-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+.controls {
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+button:disabled {
+    background-color: #95a5a6;
+    cursor: not-allowed;
+}
+
+.grid-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+canvas {
+    background-color: #ecf0f1;
+    border: 1px solid #bdc3c7;
+}
+
+.rules {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e8f4f8;
+    border-radius: 5px;
+}
+
+.rules h2 {
+    margin-top: 0;
+    color: #16a085;
+}
+
+.rules ol {
+    padding-left: 20px;
+}
+
+#speedSlider {
+    width: 100px;
+}
+
+#generation {
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    .controls {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    button {
+        width: 100%;
+    }
+}
