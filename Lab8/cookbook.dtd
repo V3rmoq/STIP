@@ -1,0 +1,12 @@
+<!DOCTYPE cookbook [
+<!ELEMENT cookbook (dish+)>
+<!ELEMENT dish (type, name, measure, ingredients, recipe, calories)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT measure (#PCDATA)>
+<!ELEMENT ingredients (ingredient+)>
+<!ELEMENT ingredient (name, amount)>
+<!ELEMENT recipe (#PCDATA)>
+<!ELEMENT calories (#PCDATA)>
+<!ELEMENT amount (#PCDATA)>
+]>
