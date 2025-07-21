@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab 5</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Завдання 5.1 - Приховування зображення -->
+<div class="task-section">
+  <h2>Завдання 5.1</h2>
+  <p>Натисніть на зображення, щоб приховати його:</p>
+  <img id="hideableImage" src="image.png" alt="Зразкове зображення">
+</div>
+
+<!-- Завдання 5.2 - Анімація блоку -->
+<div class="task-section">
+  <h2>Завдання 5.2</h2>
+  <button id="animateButton">Запустити анімацію</button>
+  <div id="animatedBlock" class="red-block">
+    Анімований текст
+  </div>
+</div>
+
+<!-- Завдання 5.3 - Форма з умовним відображенням -->
+<div class="task-section">
+  <h2>Завдання 5.3</h2>
+
+  <!-- Приклад 1 - Контрольне слово -->
+  <div class="example">
+    <h3>Приклад 1: Контрольне слово</h3>
+    <div class="form-group">
+      <label>Введіть пароль:</label>
+      <input type="password" id="password">
+    </div>
+
+    <div class="form-group">
+      <label>
+        <input type="checkbox" id="showWordCheckbox"> Я хочу вказати контрольне слово
+      </label>
+    </div>
+
+    <div class="form-group" id="secretWordGroup" style="display: none;">
+      <label>Введіть контрольне слово:</label>
+      <input type="text" id="secretWord">
+    </div>
+  </div>
+
+  <!-- Приклад 2 - Вибір піци -->
+  <div class="example">
+    <h3>Приклад 2: Вибір піци</h3>
+    <div class="form-group">
+      <label>Оберіть піцу:</label>
+      <div class="radio-group">
+        <label><input type="radio" name="pizza" value="margarita" checked> Маргаріта</label>
+        <label><input type="radio" name="pizza" value="four_cheese"> Чотири сири</label>
+        <label><input type="radio" name="pizza" value="custom"> Створити свою</label>
+      </div>
+    </div>
+
+    <div class="form-group" id="customPizzaGroup" style="display: none;">
+      <label>Введіть свій варіант піци:</label>
+      <input type="text" id="customPizza">
+    </div>
+  </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
