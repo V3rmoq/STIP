@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h2>Завдання 4.1</h2>
+<h1>Форма реєстрації</h1>
+
+<form id="registrationForm">
+    <div class="form-group">
+        <label>Ім'я:</label>
+        <input type="text" id="firstName" required>
+        <div class="error" id="firstNameError"></div>
+    </div>
+
+    <div class="form-group">
+        <label>Прізвище:</label>
+        <input type="text" id="lastName" required>
+        <div class="error" id="lastNameError"></div>
+    </div>
+
+    <div class="form-group">
+        <label>Найменування організації:</label>
+        <input type="text" id="organization" required>
+        <div class="error" id="organizationError"></div>
+    </div>
+
+    <div class="form-group">
+        <label>Номер кредитної картки:</label>
+        <input type="text" id="creditCard" required>
+        <div class="error" id="creditCardError"></div>
+    </div>
+
+    <div class="form-group">
+        <label>Номер телефону:</label>
+        <input type="text" id="phone" required>
+        <div class="error" id="phoneError"></div>
+    </div>
+
+    <div class="form-group">
+        <label>Адреса електронної пошти:</label>
+        <input type="text" id="email" required>
+        <div class="error" id="emailError"></div>
+    </div>
+
+    <div class="form-group">
+        <label>Адреса:</label>
+        <input type="text" id="address" required>
+        <div class="error" id="addressError"></div>
+    </div>
+
+    <div class="form-actions">
+        <button type="submit">Надіслати</button>
+        <button type="reset">Очистити</button>
+    </div>
+</form>
+
+<h2>Завдання 4.2</h2>
+<h1>Регулярні вирази</h1>
+
+<div class="regex-task">
+    <h3>Вхідний рядок:</h3>
+    <p>'аеееа аееа аеа аха аха ахаа'</p>
+
+    <h3>Результати пошуку:</h3>
+    <p>Регулярний вираз: /а(ее|х+)а/в</p>
+
+    <div class="matches" id="matchesContainer">
+        <p>Знайдені збіги:</p>
+        <p>аееа аха ахаа ахаа</p>
+        <p>Кількість збігів: 4</p>
+        <p>Повний список: [аееа, аха, ахаа, ахааа]</p>
+    </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
