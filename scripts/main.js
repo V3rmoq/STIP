@@ -71,16 +71,6 @@ function loadLab(labNumber) {
     resultBtn.href = lab.result;
     codeBtn.href = lab.code;
     labCondition.classList.add('hidden');
-    
-    // Проверка существования файла
-    fetch(lab.result)
-        .then(response => {
-            if (!response.ok) throw new Error("Файл не найден");
-        })
-        .catch(error => {
-            console.error("Ошибка:", error);
-            alert(`Ошибка 404: Файл ${lab.result} не найден!\n\nПроверьте:\n1. Наличие файла result.html в папке Lab${labNumber}\n2. Регистр букв в названии папки\n3. Правильность ссылки в коде`);
-        });
 }
 
 // Переключаем видимость условия
