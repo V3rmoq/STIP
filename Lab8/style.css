@@ -1,5 +1,37 @@
-div {
-    white-space: pre;
-    border: 1px solid black;
-    padding: 10px;
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+}
+
+.code-block {
+    background: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    overflow-x: auto;
+    font-family: 'Courier New', monospace;
+    white-space: pre-wrap;
+    tab-size: 4;
+}
+
+.code-block pre {
+    margin: 0;
 }
