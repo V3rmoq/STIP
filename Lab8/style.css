@@ -1,5 +1,63 @@
-div {
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.file-section {
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.file-header {
+    background-color: #3498db;
+    color: white;
+    padding: 12px 15px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+.file-content {
+    background-color: #f9f9f9;
+    padding: 15px;
+    overflow-x: auto;
+    font-family: 'Courier New', monospace;
     white-space: pre;
-    border: 1px solid black;
-    padding: 10px;
+}
+
+.dtd-file .file-header {
+    background-color: #2ecc71;
+}
+
+.xml-file .file-header {
+    background-color: #e74c3c;
+}
+
+.xsd-file .file-header {
+    background-color: #f39c12;
+}
+
+.download-btn {
+    background-color: rgba(255,255,255,0.2);
+    border: none;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.download-btn:hover {
+    background-color: rgba(255,255,255,0.3);
 }
