@@ -1,25 +1,46 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lab 8</title>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Лабораторная работа №8 - XML технологии</title>
     <link rel="stylesheet" href="style.css">
-    <script src="../main.js"></script>
 </head>
 <body>
-    <p>XML</p>
-    <div id="xml">
+    <h1>Лабораторная работа №8 - XML, DTD, XSD</h1>
+    
+    <!-- DTD файл -->
+    <div class="file-section dtd-file">
+        <div class="file-header">
+            <span>schema.dtd</span>
+            <a href="schema.dtd" download class="download-btn">Скачать</a>
+        </div>
+        <div class="file-content" id="dtd-content">
+            Загрузка DTD файла...
+        </div>
     </div>
-    <br>
-    <p>DTD</p>
-    <div id="dtd">
+    
+    <!-- XML файл -->
+    <div class="file-section xml-file">
+        <div class="file-header">
+            <span>data.xml</span>
+            <a href="data.xml" download class="download-btn">Скачать</a>
+        </div>
+        <div class="file-content" id="xml-content">
+            Загрузка XML файла...
+        </div>
     </div>
-    <br>
-    <p>XSD</p>
-    <div id="xsd">
+    
+    <!-- XSD файл -->
+    <div class="file-section xsd-file">
+        <div class="file-header">
+            <span>schema.xsd</span>
+            <a href="schema.xsd" download class="download-btn">Скачать</a>
+        </div>
+        <div class="file-content" id="xsd-content">
+            Загрузка XSD файла...
+        </div>
     </div>
-    <br>
+
+    <script src="main.js"></script>
 </body>
 </html>
