@@ -18,7 +18,7 @@ function loadFileContent(filename, elementId) {
 
 // Загружаем содержимое всех файлов при открытии страницы
 window.onload = function() {
-    loadFileContent('schema.dtd', 'dtd-content');
-    loadFileContent('data.xml', 'xml-content');
-    loadFileContent('schema.xsd', 'xsd-content');
+    loadFileContent('cookbook.dtd', 'dtd-content');
+    loadFileContent('cookbook.xml', 'xml-content');
+    loadFileContent('cookbook.xsd', 'xsd-content');
 };
