@@ -7,6 +7,16 @@ $(document).ready(function() {
     // Завдання 5.2 - Анімація блоку
     $('#animateButton').click(function() {
         const $block = $('#animatedBlock');
+
+        // Скидаємо всі попередні анімації та повертаємо до початкового стану
+        $block.stop(true, true).css({
+            'marginTop': '0',
+            'width': '200px',
+            'height': '100px',
+            'fontSize': '16px',
+            'white-space': 'normal'
+        });
+
         const originalWidth = $block.width();
         const originalHeight = $block.height();
         const originalFontSize = parseInt($block.css('font-size'));
