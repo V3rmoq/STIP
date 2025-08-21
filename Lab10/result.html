@@ -1,46 +1,27 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Кулінарна книга</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/axdraft/number-to-cyrillic/dist/numberToString.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторна робота №10 - XML до HTML таблиці</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>Кулінарна книга</h1>
+<div class="container">
+    <h1>Лабораторна робота №10 - Перетворення XML в HTML таблицю</h1>
 
-<div class="table-container">
-  <table id="originalTable">
-    <thead>
-    <tr>
-      <th>Тип</th>
-      <th>Назва</th>
-      <th>Калорійність</th>
-      <th>Інгредієнти</th>
-      <th>Кількість інгредієнтів</th>
-    </tr>
-    </thead>
-    <tbody></tbody>
-  </table>
-</div>
+    <div class="xml-section">
+        <h2>1. Вихідний XML документ</h2>
+        <button class="btn" onclick="loadXML()">Завантажити XML</button>
+        <div id="xmlDisplay" class="xml-content"></div>
+    </div>
 
-<div class="separator"></div>
-
-<div class="table-container">
-  <table id="numbersTable">
-    <thead>
-    <tr>
-      <th>Тип</th>
-      <th>Назва</th>
-      <th>Калорійність (словами)</th>
-      <th>Інгредієнти</th>
-      <th>Кількість інгредієнтів (словами)</th>
-    </tr>
-    </thead>
-    <tbody></tbody>
-  </table>
+    <div class="table-section">
+        <h2>2. HTML таблиця з даних XML</h2>
+        <button class="btn" onclick="createTable()">Створити таблицю</button>
+        <button class="btn" onclick="saveResult()">Зберегти результат</button>
+        <div id="tableContainer"></div>
+    </div>
 </div>
 
 <script src="main.js"></script>
