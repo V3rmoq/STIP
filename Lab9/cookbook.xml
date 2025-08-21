@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cookbook>
+    <dish>
+        <type>Гаряча страва</type>
+        <name>Борщ</name>
+        <measure>Порція</measure>
+        <ingredients>
+            <ingredient>
+                <name>Буряк</name>
+                <amount>300 г</amount>
+            </ingredient>
+            <ingredient>
+                <name>Капуста</name>
+                <amount>200 г</amount>
+            </ingredient>
+            <ingredient>
+                <name>Картопля</name>
+                <amount>3 шт</amount>
+            </ingredient>
+        </ingredients>
+        <recipe>Нарізати овочі, обсмажити цибулю, додати м'ясо, варити 40 хвилин.</recipe>
+        <calories>150 ккал</calories>
+    </dish>
+
+    <dish>
+        <type>Салат</type>
+        <name>Олів'є</name>
+        <measure>Порція</measure>
+        <ingredients>
+            <ingredient>
+                <name>Картопля</name>
+                <amount>4 шт</amount>
+            </ingredient>
+            <ingredient>
+                <name>Морква</name>
+                <amount>2 шт</amount>
+            </ingredient>
+            <ingredient>
+                <name>Яйце</name>
+                <amount>3 шт</amount>
+            </ingredient>
+        </ingredients>
+        <recipe>Відварити овочі та яйця, нарізати кубиками, змішати з майонезом.</recipe>
+        <calories>250 ккал</calories>
+    </dish>
+
+    <dish>
+        <type>Десерт</type>
+        <name>Сирники</name>
+        <measure>Порція (3 шт)</measure>
+        <ingredients>
+            <ingredient>
+                <name>Сир</name>
+                <amount>500 г</amount>
+            </ingredient>
+            <ingredient>
+                <name>Борошно</name>
+                <amount>100 г</amount>
+            </ingredient>
+            <ingredient>
+                <name>Яйце</name>
+                <amount>2 шт</amount>
+            </ingredient>
+        </ingredients>
+        <recipe>Змішати сир з яйцями, додати борошно і цукор, сформувати сирники, обсмажити.</recipe>
+        <calories>200 ккал</calories>
+    </dish>
+
+    <dish>
+        <type>Випічка</type>
+        <name>Млинці</name>
+        <measure>Порція (2 шт)</measure>
+        <ingredients>
+            <ingredient>
+                <name>Молоко</name>
+                <amount>500 мл</amount>
+            </ingredient>
+            <ingredient>
+                <name>Борошно</name>
+                <amount>200 г</amount>
+            </ingredient>
+            <ingredient>
+                <name>Яйце</name>
+                <amount>2 шт</amount>
+            </ingredient>
+        </ingredients>
+        <recipe>Змішати всі інгредієнти, тісто повинно бути рідким, випікати на сковороді.</recipe>
+        <calories>180 ккал</calories>
+    </dish>
+
+    <dish>
+        <type>Гаряча страва</type>
+        <name>Гречана каша</name>
+        <measure>Порція</measure>
+        <ingredients>
+            <ingredient>
+                <name>Гречка</name>
+                <amount>100 г</amount>
+            </ingredient>
+            <ingredient>
+                <name>Вода</name>
+                <amount>200 мл</amount>
+            </ingredient>
+        </ingredients>
+        <recipe>Промити гречку, залити водою, варити 20 хвилин, додати масло.</recipe>
+        <calories>120 ккал</calories>
+    </dish>
+
+    <dish>
+        <type>Салат</type>
+        <name>Цезар</name>
+        <measure>Порція</measure>
+        <ingredients>
+            <ingredient>
+                <name>Куряче філе</name>
+                <amount>150 г</amount>
+            </ingredient>
+            <ingredient>
+                <name>Листя салату</name>
+                <amount>50 г</amount>
+            </ingredient>
+        </ingredients>
+        <recipe>Обсмажити куряче філе, змішати з листям салату та соусом.</recipe>
+        <calories>180 ккал</calories>
+    </dish>
+
+    <dish>
+        <type>Супи</type>
+        <name>Грибний суп</name>
+        <measure>Порція</measure>
+        <ingredients>
+            <ingredient>
+                <name>Гриби</name>
+                <amount>300 г</amount>
+            </ingredient>
+            <ingredient>
+                <name>Картопля</name>
+                <amount>3 шт</amount>
+            </ingredient>
+        </ingredients>
+        <recipe>Нарізати гриби та овочі, варити 25 хвилин, додати вершки.</recipe>
+        <calories>160 ккал</calories>
+    </dish>
+
+    <dish>
+        <type>Випічка</type>
+        <name>Шарлотка</name>
+        <measure>Порція (1/8 пирога)</measure>
+        <ingredients>
+            <ingredient>
+                <name>Яблука</name>
+                <amount>3 шт</amount>
+            </ingredient>
+            <ingredient>
+                <name>Борошно</name>
+                <amount>200 г</amount>
+            </ingredient>
+        </ingredients>
+        <recipe>Збити яйця з цукром, додати борошно, випікати 40 хвилин.</recipe>
+        <calories>220 ккал</calories>
+    </dish>
+
+    <dish>
+        <type>Гаряча страва</type>
+        <name>Пельмені</name>
+        <measure>Порція (10 шт)</measure>
+        <ingredients>
+            <ingredient>
+                <name>Борошно</name>
+                <amount>200 г</amount>
+            </ingredient>
+            <ingredient>
+                <name>Фарш</name>
+                <amount>300 г</amount>
+            </ingredient>
+        </ingredients>
+        <recipe>Замісити тісто, зліпити пельмені, варити 5-7 хвилин.</recipe>
+        <calories>250 ккал</calories>
+    </dish>
+
+    <dish>
+        <type>Десерт</type>
+        <name>Медовик</name>
+        <measure>Порція (1/10 торта)</measure>
+        <ingredients>
+            <ingredient>
+                <name>Борошно</name>
+                <amount>400 г</amount>
+            </ingredient>
+            <ingredient>
+                <name>Мед</name>
+                <amount>100 г</amount>
+            </ingredient>
+        </ingredients>
+        <recipe>Замісити тісто, випікати коржі, змастити сметаною.</recipe>
+        <calories>300 ккал</calories>
+    </dish>
+</cookbook>
